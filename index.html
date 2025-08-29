@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extrator de Palavras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Extrator de Palavras</h1>
+        <textarea id="inputText">Em 2017, Neymar Jr. fez uma das transferências mais chocantes da história do futebol ao deixar o Barcelona para se juntar ao Paris Saint-Germain (PSG). O valor da transferência foi um recorde mundial, com o PSG pagando a cláusula de rescisão de 222 milhões de euros para garantir a contratação do atacante brasileiro.
+
+O incidente causou grande repercussão, principalmente entre os torcedores do Barcelona. Durante sua saída, surgiram várias especulações sobre os motivos que levaram Neymar a deixar o clube catalão. Alguns afirmavam que Neymar estava insatisfeito com o papel de coadjuvante ao lado de Lionel Messi, enquanto outros sugeriam que ele queria ser a estrela principal em um clube como o PSG, onde poderia ter maior destaque.
+
+Além disso, surgiram controvérsias envolvendo o comportamento do jogador e sua família. Algumas informações indicaram que Neymar e seus representantes estavam negociando a transferência de maneira pouco transparente, o que gerou tensões internas no Barcelona. O presidente do clube, Josep Maria Bartomeu, chegou a declarar que a saída de Neymar foi uma surpresa e que o Barcelona não estava preparado para perder o jogador naquele momento.
+
+Por outro lado, Neymar, ao se juntar ao PSG, afirmou que estava buscando novos desafios e uma nova etapa em sua carreira. Embora tenha se tornado um dos jogadores mais bem pagos do mundo, o brasileiro enfrentou críticas por deixar o Barcelona em um momento de sucesso e para buscar uma "nova ambição".</textarea>
+        <button onclick="extrairPalavras()">Extrair Palavras</button>
+        <div id="resultado">
+            <h2>Palavras Extraídas:</h2>
+            <ul id="listaPalavras"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
